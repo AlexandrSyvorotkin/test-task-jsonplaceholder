@@ -1,0 +1,27 @@
+/* Pagination.module.scss */
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page_item {
+  margin-right: 5px;
+}
+
+.number_item {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.number_item:hover {
+  background-color: #f0f0f0;
+}
+
+.active_page_item .number_item {
+  background-color: #007bff;
+  color: #fff;
+}
